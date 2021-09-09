@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Game from '../components/games/Game';
 import { fetchOneCreature } from '../services/ZeldaApi';
 import PropTypes from 'prop-types';
+import '../styles/Detail.css';
 
 export default class DetailContainer extends Component {
   state = {
@@ -30,7 +31,7 @@ export default class DetailContainer extends Component {
     const { loading, name, description, image, locations, drops } = this.state;
     if(loading) {
       return (
-        <img
+        <img className="spinner"
           src="https://thumbs.gfycat.com/DistantGrayFinwhale-max-1mb.gif"
           alt="Triforce loading icon"
         />

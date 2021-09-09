@@ -7,9 +7,11 @@ li {
       justify-items: center;
       text-align: center;
       margin: 10px;
-      background-color: rgba(60, 128, 0, 0.399);
+      background-color: rgba(2, 170, 189, 0.509);
       border-radius: 30px;
       list-style-type: none;
+      font-family: Triforce;
+      
 }
 
 ul {
@@ -27,10 +29,17 @@ ul {
       flex-wrap: wrap;
       margin-right: 20px;
       margin-left: -40px;
+      font-family: Triforce;
 }
 
 body {
       background-image: url('./botw.jpg');
       background-repeat: no-repeat;
-      background-color: rgba(127, 255, 242, 0.514);
+      background-color: rgba(7, 105, 128, 0.589);
+      font-family: Triforce;
+      color: rgb(245, 208, 115);
+}
+
+.spinner {
+      border: none;
 }
