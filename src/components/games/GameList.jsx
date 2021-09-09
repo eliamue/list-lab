@@ -7,7 +7,7 @@ const GameList = ({ creatures }) => (
   <ul aria-label="creatures">
     {creatures.map((creature) => (
       <li key={creature.id}>
-        <Link to={`/creatures/${creature.id}`}>
+        <Link to={`/${creature.id}`}>
           <Game
             name={creature.name}
             image={creature.image}
@@ -23,7 +23,7 @@ GameList.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired
     })
   ).isRequired,
 };

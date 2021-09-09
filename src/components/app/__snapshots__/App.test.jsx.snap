@@ -2,8 +2,10 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <img
+    alt="Triforce loading icon"
+    src="https://thumbs.gfycat.com/DistantGrayFinwhale-max-1mb.gif"
+  />
+  ;
 </DocumentFragment>
 `;

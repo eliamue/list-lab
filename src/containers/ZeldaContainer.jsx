@@ -5,11 +5,11 @@ import { fetchCreatures } from '../services/ZeldaApi';
 export default class ZeldaContainer extends Component {
   state = {
     loading: true,
-    creatures: [],
+    creatures: []
   };
 
   componentDidMount() {
-    fetchCreatures().then(creatures => this.setState({ creatures, loading: false }));
+    fetchCreatures().then(creatures => this.setState({ creatures, loading: false }))
   }
 
   render() {
@@ -19,8 +19,7 @@ export default class ZeldaContainer extends Component {
         <img
           src="https://thumbs.gfycat.com/DistantGrayFinwhale-max-1mb.gif"
           alt="Triforce loading icon"
-        />
-      );
+        />);
     } else {
       return  <GameList creatures={creatures} />;
     }
