@@ -51,5 +51,6 @@ export default class DetailContainer extends Component {
   }
 }
 DetailContainer.propTypes = {
-  match: PropTypes.any
+  match: PropTypes.any,
+  params: PropTypes.any
 };

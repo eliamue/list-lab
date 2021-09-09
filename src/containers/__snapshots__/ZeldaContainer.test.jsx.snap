@@ -1,0 +1,760 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZeldaContainer renders a list of Breath of the Wild creatures 1`] = `
+<ul
+  aria-label="creatures"
+>
+  <li>
+    <a
+      href="/16"
+    >
+      <h1>
+        water buffalo
+      </h1>
+      <img
+        alt="water buffalo"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/water_buffalo/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/18"
+    >
+      <h1>
+        highland sheep
+      </h1>
+      <img
+        alt="highland sheep"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/highland_sheep/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/23"
+    >
+      <h1>
+        cold-footed wolf
+      </h1>
+      <img
+        alt="cold-footed wolf"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/cold-footed_wolf/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/7"
+    >
+      <h1>
+        sand seal
+      </h1>
+      <img
+        alt="sand seal"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/sand_seal/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/29"
+    >
+      <h1>
+        blupee
+      </h1>
+      <img
+        alt="blupee"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/blupee/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/43"
+    >
+      <h1>
+        pink heron
+      </h1>
+      <img
+        alt="pink heron"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/pink_heron/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/32"
+    >
+      <h1>
+        blue sparrow
+      </h1>
+      <img
+        alt="blue sparrow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/blue_sparrow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/13"
+    >
+      <h1>
+        white goat
+      </h1>
+      <img
+        alt="white goat"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/white_goat/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/25"
+    >
+      <h1>
+        great-horned rhinoceros
+      </h1>
+      <img
+        alt="great-horned rhinoceros"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/great-horned_rhinoceros/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/2"
+    >
+      <h1>
+        giant horse
+      </h1>
+      <img
+        alt="giant horse"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/giant_horse/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/10"
+    >
+      <h1>
+        woodland boar
+      </h1>
+      <img
+        alt="woodland boar"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/woodland_boar/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/36"
+    >
+      <h1>
+        wood pigeon
+      </h1>
+      <img
+        alt="wood pigeon"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/wood_pigeon/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/19"
+    >
+      <h1>
+        grassland fox
+      </h1>
+      <img
+        alt="grassland fox"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/grassland_fox/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/44"
+    >
+      <h1>
+        islander hawk
+      </h1>
+      <img
+        alt="islander hawk"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/islander_hawk/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/47"
+    >
+      <h1>
+        cucco
+      </h1>
+      <img
+        alt="cucco"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/cucco/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/42"
+    >
+      <h1>
+        blue-winged heron
+      </h1>
+      <img
+        alt="blue-winged heron"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/blue-winged_heron/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/40"
+    >
+      <h1>
+        mountain crow
+      </h1>
+      <img
+        alt="mountain crow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/mountain_crow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/11"
+    >
+      <h1>
+        red-tusked boar
+      </h1>
+      <img
+        alt="red-tusked boar"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/red-tusked_boar/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/14"
+    >
+      <h1>
+        mountain buck
+      </h1>
+      <img
+        alt="mountain buck"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/mountain_buck/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/17"
+    >
+      <h1>
+        hateno cow
+      </h1>
+      <img
+        alt="hateno cow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/hateno_cow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/35"
+    >
+      <h1>
+        golden sparrow
+      </h1>
+      <img
+        alt="golden sparrow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/golden_sparrow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/15"
+    >
+      <h1>
+        mountain doe
+      </h1>
+      <img
+        alt="mountain doe"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/mountain_doe/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/1"
+    >
+      <h1>
+        horse
+      </h1>
+      <img
+        alt="horse"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/horse/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/24"
+    >
+      <h1>
+        tabantha moose
+      </h1>
+      <img
+        alt="tabantha moose"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/tabantha_moose/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/31"
+    >
+      <h1>
+        red sparrow
+      </h1>
+      <img
+        alt="red sparrow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/red_sparrow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/30"
+    >
+      <h1>
+        common sparrow
+      </h1>
+      <img
+        alt="common sparrow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/common_sparrow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/45"
+    >
+      <h1>
+        seagull
+      </h1>
+      <img
+        alt="seagull"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/seagull/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/34"
+    >
+      <h1>
+        sand sparrow
+      </h1>
+      <img
+        alt="sand sparrow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/sand_sparrow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/39"
+    >
+      <h1>
+        white pigeon
+      </h1>
+      <img
+        alt="white pigeon"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/white_pigeon/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/3"
+    >
+      <h1>
+        white horse
+      </h1>
+      <img
+        alt="white horse"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/white_horse/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/9"
+    >
+      <h1>
+        bushy-tailed squirrel
+      </h1>
+      <img
+        alt="bushy-tailed squirrel"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/bushy-tailed_squirrel/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/37"
+    >
+      <h1>
+        rainbow pigeon
+      </h1>
+      <img
+        alt="rainbow pigeon"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/rainbow_pigeon/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/28"
+    >
+      <h1>
+        hylian retriever
+      </h1>
+      <img
+        alt="hylian retriever"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/hylian_retriever/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5"
+    >
+      <h1>
+        stalhorse
+      </h1>
+      <img
+        alt="stalhorse"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/stalhorse/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/6"
+    >
+      <h1>
+        donkey
+      </h1>
+      <img
+        alt="donkey"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/donkey/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/4"
+    >
+      <h1>
+        lord of the mountain
+      </h1>
+      <img
+        alt="lord of the mountain"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/lord_of_the_mountain/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/21"
+    >
+      <h1>
+        maraudo wolf
+      </h1>
+      <img
+        alt="maraudo wolf"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/maraudo_wolf/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/12"
+    >
+      <h1>
+        mountain goat
+      </h1>
+      <img
+        alt="mountain goat"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/mountain_goat/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/46"
+    >
+      <h1>
+        eldin ostrich
+      </h1>
+      <img
+        alt="eldin ostrich"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/eldin_ostrich/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/20"
+    >
+      <h1>
+        snowcoat fox
+      </h1>
+      <img
+        alt="snowcoat fox"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/snowcoat_fox/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/8"
+    >
+      <h1>
+        patricia
+      </h1>
+      <img
+        alt="patricia"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/patricia/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/22"
+    >
+      <h1>
+        wasteland coyote
+      </h1>
+      <img
+        alt="wasteland coyote"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/wasteland_coyote/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/41"
+    >
+      <h1>
+        bright-chested duck
+      </h1>
+      <img
+        alt="bright-chested duck"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/bright-chested_duck/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/26"
+    >
+      <h1>
+        honeyvore bear
+      </h1>
+      <img
+        alt="honeyvore bear"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/honeyvore_bear/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/27"
+    >
+      <h1>
+        grizzlemaw bear
+      </h1>
+      <img
+        alt="grizzlemaw bear"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/grizzlemaw_bear/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/33"
+    >
+      <h1>
+        rainbow sparrow
+      </h1>
+      <img
+        alt="rainbow sparrow"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/rainbow_sparrow/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+  <li>
+    <a
+      href="/38"
+    >
+      <h1>
+        hotfeather pigeon
+      </h1>
+      <img
+        alt="hotfeather pigeon"
+        src="https://botw-compendium.herokuapp.com/api/v2/entry/hotfeather_pigeon/image"
+      />
+      <p />
+      <p />
+      <p />
+    </a>
+  </li>
+</ul>
+`;
