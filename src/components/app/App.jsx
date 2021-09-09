@@ -6,10 +6,9 @@ import DetailContainer from '../../containers/DetailContainer';
 export default function App() {
   return (
     <BrowserRouter>
-      <ZeldaContainer />
       <Switch>
-        <Route path="/:id" component={DetailContainer} />
         <Route exact path="/" component={ZeldaContainer} />
+        <Route exact path="/:id" component={DetailContainer} />
       </Switch>
     </BrowserRouter>
   );

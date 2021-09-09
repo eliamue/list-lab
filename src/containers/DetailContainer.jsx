@@ -1,30 +1,33 @@
 import React, { Component } from 'react';
 import Game from '../components/games/Game';
-import { fetchCreatures } from '../services/ZeldaApi';
+import { fetchOneCreature } from '../services/ZeldaApi';
+import PropTypes from 'prop-types';
 
 export default class DetailContainer extends Component {
   state = {
     loading: true,
     name: '',
     description: '',
-    common_locations: [],
+    locations: [],
     drops: [],
-    image: ''
+    image: '',
   };
 
   componentDidMount() {
-    fetchCreatures().then(() =>
+    fetchOneCreature(this.props.match.params.id).then((creature) =>
       this.setState({
-        name,
-        description,
-        image,
-        common_locations,
-        drops,
+        name: creature.name,
+        description: creature.description,
+        image: creature.image,
+        locations: creature.locations,
+        drops: creature.drops,
         loading: false,
       })
     );
-    const { loading, name, description, image, common_locations, drops } =
-      this.state;
+  }
+
+  render() {
+    const { loading, name, description, image, locations, drops } = this.state;
     if(loading) {
       return (
         <img
@@ -34,14 +37,19 @@ export default class DetailContainer extends Component {
       );
     } else {
       return (
-        <Game
-          name={name}
-          description={description}
-          image={image}
-          drops={drops}
-          common_locations={common_locations}
-        />
+        <div>
+          <Game
+            name={name}
+            description={description}
+            image={image}
+            drops={drops}
+            locations={locations}
+          />
+        </div>
       );
     }
   }
 }
+DetailContainer.propTypes = {
+  match: PropTypes.any
+};

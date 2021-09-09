@@ -7,8 +7,8 @@ describe('ZeldaContainer', () => {
     render(<ZeldaContainer />);
 
     screen.getByAltText('Triforce loading icon');
-
-    const ul = await screen.findByRole('list', { name: 'creatures' });
+    screen.debug();
+    const ul = await screen.findByRole('list');
 
     expect(ul).toMatchSnapshot();
   });

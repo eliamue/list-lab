@@ -13,9 +13,9 @@ const Game = ({ name, description, image, drops, common_locations }) => (
 );
 
 Game.propTypes = {
-  name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
   drops: PropTypes.array,
   common_locations: PropTypes.array
 };

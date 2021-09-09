@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GameList from '../components/games/GameList';
 import { fetchCreatures } from '../services/ZeldaApi';
+import '../styles/List.css';
 
 export default class ZeldaContainer extends Component {
   state = {
@@ -9,7 +10,11 @@ export default class ZeldaContainer extends Component {
   };
 
   componentDidMount() {
-    fetchCreatures().then(creatures => this.setState({ creatures, loading: false }))
+    fetchCreatures().then(creatures => 
+      this.setState({ 
+        creatures, 
+        loading: false 
+      }));
   }
 
   render() {
