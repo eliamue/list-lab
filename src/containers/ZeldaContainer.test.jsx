@@ -19,17 +19,17 @@ describe('ZeldaContainer', () => {
     expect(ul).toMatchSnapshot();
   });
 
-  it.skip('renders a single Breath of the Wild creature', async () => {
-    render(
-      <MemoryRouter>
-        <DetailContainer />
-      </MemoryRouter>
-    );
+  // it.skip('renders a single Breath of the Wild creature', async () => {
+  //   render(
+  //     <MemoryRouter>
+  //       <DetailContainer />
+  //     </MemoryRouter>
+  //   );
 
-    screen.getByAltText('Triforce loading icon');
-    screen.debug();
-    const creature = await screen.findByLabelText('creature');
+  //   screen.getByAltText('Triforce loading icon');
+  //   screen.debug();
+  //   const creature = await screen.findByLabelText('creature');
 
-    expect(creature).toMatchSnapshot();
-  });
+  //   expect(creature).toMatchSnapshot();
+  // });
 });
