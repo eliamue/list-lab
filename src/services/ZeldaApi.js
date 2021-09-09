@@ -6,8 +6,7 @@ export const fetchCreatures = () => {
         id: creature.id,
         name: creature.name,
         description: creature.description,
-        image: creature.image,
-        cooking_effect: creature.cooking_effect,
+        image: creature.image
       }))
     );
 };
