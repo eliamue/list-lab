@@ -1,12 +1,13 @@
-export const findGames = () => {
-  return fetch('https://zelda-api.apius.cc/api/games')
-    .then((res) => res.json())
-    .then((json) =>
-      json.results.map((game) => ({
-        id: game.id,
-        name: game.name,
-        description: game.description,
-        released_date: game.released_date,
+export const fetchCreatures = () => {
+  return fetch('https://botw-compendium.herokuapp.com/api/v2/category/creatures')
+    .then(res => res.json())
+    .then(json => 
+      json.results.map(creature => ({
+        id: creature.id,
+        name: creature.name,
+        description: creature.description,
+        image: creature.image,
+        cooking_effect: creature.cooking_effect,
       }))
     );
 };
