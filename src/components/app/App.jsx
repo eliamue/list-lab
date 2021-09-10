@@ -8,7 +8,12 @@ export default function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={ZeldaContainer} />
-        <Route exact path="/:id" component={DetailContainer} />
+        <Route
+          exact
+          path="/:id"
+          component={
+            DetailContainer}
+        />
       </Switch>
     </BrowserRouter>
   );

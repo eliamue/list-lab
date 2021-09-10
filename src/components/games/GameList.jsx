@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const GameList = ({ creatures }) => (
   <ul aria-label="creatures">
     {creatures.map((creature) => (
-      <li key={creature.id}>
+      <li aria-label={creature.name} key={creature.id}>
         <Link to={`/${creature.id}`}>
           <Game
             name={creature.name}

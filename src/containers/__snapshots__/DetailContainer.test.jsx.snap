@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailContainer renders a single Breath of the Wild creature 1`] = `
+<h2>
+  Creature
+</h2>
+`;

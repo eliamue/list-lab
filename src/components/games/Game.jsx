@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Game = ({ name, description, image, drops, common_locations }) => (
+const Game = ({ name, description, image }) => (
   <div aria-label="creature">
     <h1>{name}</h1>
     <img className="animal" src={image} alt={name} />
     <p className="desc">{description}</p>
-    <p>{drops}</p>
-    <p>{common_locations}</p>
   </div>
 
 );
@@ -15,9 +13,7 @@ const Game = ({ name, description, image, drops, common_locations }) => (
 Game.propTypes = {
   name: PropTypes.string,
   description: PropTypes.string,
-  image: PropTypes.string,
-  drops: PropTypes.array,
-  common_locations: PropTypes.array
+  image: PropTypes.string
 };
 
 export default Game;

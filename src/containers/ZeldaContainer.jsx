@@ -6,27 +6,37 @@ import '../styles/List.css';
 export default class ZeldaContainer extends Component {
   state = {
     loading: true,
-    creatures: []
+    creatures: [],
   };
 
   componentDidMount() {
-    fetchCreatures().then(creatures => 
-      this.setState({ 
-        creatures, 
-        loading: false 
-      }));
+    fetchCreatures().then((creatures) =>
+      this.setState({
+        creatures,
+        loading: false,
+      })
+    );
   }
 
   render() {
     const { loading, creatures } = this.state;
     if(loading) {
       return (
-        <img
-          src="https://thumbs.gfycat.com/DistantGrayFinwhale-max-1mb.gif"
-          alt="Triforce loading icon"
-        />);
+        <div>
+          <img
+            src="https://thumbs.gfycat.com/DistantGrayFinwhale-max-1mb.gif"
+            alt="Triforce loading icon"
+          />
+        </div>
+      );
     } else {
-      return  <GameList creatures={creatures} />;
+      return (
+        <div>
+          <h1>BREATH OF THE WILD CREATURES</h1>
+
+          <GameList creatures={creatures} />
+        </div>
+      );
     }
   }
 }

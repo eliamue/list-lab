@@ -9,9 +9,7 @@ export default class DetailContainer extends Component {
     loading: true,
     name: '',
     description: '',
-    locations: [],
-    drops: [],
-    image: '',
+    image: ''
   };
 
   componentDidMount() {
@@ -20,15 +18,13 @@ export default class DetailContainer extends Component {
         name: creature.name,
         description: creature.description,
         image: creature.image,
-        locations: creature.locations,
-        drops: creature.drops,
-        loading: false,
+        loading: false
       })
     );
   }
 
   render() {
-    const { loading, name, description, image, locations, drops } = this.state;
+    const { loading, name, description, image } = this.state;
     if(loading) {
       return (
         <img className="spinner"
@@ -39,12 +35,11 @@ export default class DetailContainer extends Component {
     } else {
       return (
         <div>
+          <h2>Creature</h2>
           <Game
             name={name}
             description={description}
             image={image}
-            drops={drops}
-            locations={locations}
           />
         </div>
       );

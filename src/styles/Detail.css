@@ -27,3 +27,7 @@ img {
 .spinner {
       border: transparent;
 }
+
+p {
+      display: block;
+}

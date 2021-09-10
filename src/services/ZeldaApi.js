@@ -7,10 +7,7 @@ export const fetchCreatures = () => {
       json.data.non_food.map((creature) => ({
         id: creature.id,
         name: creature.name,
-        description: creature.description,
-        image: creature.image,
-        drops: creature.drops,
-        common_locations: creature.common_locations,
+        image: creature.image
       }))
     );
 };
@@ -25,9 +22,7 @@ export const fetchOneCreature = (id) => {
         id: json.data.id,
         name: json.data.name,
         description: json.data.description,
-        image: json.data.image,
-        drops: json.data.drops,
-        locations: json.data.common_locations,
+        image: json.data.image
       };
     });
 };
